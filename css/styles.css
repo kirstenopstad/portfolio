@@ -30,20 +30,27 @@ h5 {
 }
 
 .header {
-  min-height: 100vw;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 0;
 }
 
 .header h1 {
+  position: absolute;
   text-align: center;
   color: white;
-  padding-top: 50vh;
 }
 
-#header {
+#header-photo {
   background-image: url(/img/ko-couch.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
-
+  background-size: 100vw;
 }
 
 .list-title {
