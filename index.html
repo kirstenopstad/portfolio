@@ -17,32 +17,52 @@
     <!-- "About Me" section that includes: -->
     <div class="about">
       <h2>About</h2>
-      <!-- Photo -->
-      <img src="img/ko-headshot.JPG" alt="Profile photo of Kirsten">
-      <!-- Background: brief first-person intro narrative (Elevator pitch length) -->
-      <p><strong>Hi! I'm Kirsten.</strong> I'm currently enrolled in a full time full stack engineering program at <a href="http://epicodus.com">Epicodus</a>.</p>
-      <p>I'm a huge fan of Brene Brown's work around <a href="https://brenebrown.com/resources/living-into-our-values/"><em>Living Into Our Values</em></a>, in the workpace and in one's personal life. In the spirit of vulnerability, I share my core values to give some insight into who I am and what's important to me:</p>
-      <ol>
-        <li>Intentionality</li>
-        <li>Authenticity</li>
-        <li>Creativity</li>
-        </ol>
-      <!-- Current Interests: interests, hobbies, skills -->
-      <ul><span class="list-title">Interests</span>
-        <li>Learning to Write Better Code</li>
-        <li>Solving Problems with Creativity</li>
-        <li>Being a Tech Translator</li>
-      </ul>
-      <ul><span class="list-title">Hobbies</span>
-        <li>Writing Music</li>
-        <li>Camping & Hiking</li>
-        <li>Reading Poetry & Fiction</li>
-      </ul>
-      <ul><span class="list-title">Skills</span>
-        <li>HTML & CSS</li>
-        <li>Git Workflow</li>
-        <li>Procedural Programming</li>
-      </ul>
+      <div class="row">
+        <div class="about-text col-7">
+          <!-- Background: brief first-person intro narrative (Elevator pitch length) -->
+          <p><strong>Hi! I'm Kirsten.</strong> I'm currently enrolled in a full time full stack engineering program at <a href="http://epicodus.com">Epicodus</a>.</p>
+          <p>I'm a huge fan of Brene Brown's work around <a href="https://brenebrown.com/resources/living-into-our-values/"><em>Living Into Our Values</em></a>, in the workpace and in one's personal life. In the spirit of vulnerability, I share my core values to give some insight into who I am and what's important to me:</p>
+          <ol>
+            <li>Intentionality</li>
+            <li>Authenticity</li>
+            <li>Creativity</li>
+            </ol>
+        </div>
+        <div class="col-5">
+          <div class="row">
+            <div class="col-6" id="about-photo">
+            <!-- Photo -->
+            <img src="img/ko-headshot.JPG" alt="Profile photo of Kirsten">
+            </div>
+          </div>
+          <!-- Current Interests: interests, hobbies, skills -->
+          <div class="row">
+            <div class="about-badge col-12">
+              <ul><span class="list-title">Interests</span>
+                <li>Learning to Write Better Code</li>
+                <li>Solving Problems with Creativity</li>
+                <li>Being a Tech Translator</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-badge col">
+            <ul><span class="list-title">Hobbies</span>
+              <li>Writing Music</li>
+              <li>Camping & Hiking</li>
+              <li>Reading Poetry & Fiction</li>
+            </ul>
+            </div>
+            <div class="about-badge col">
+              <ul><span class="list-title">Skills</span>
+                <li>HTML & CSS</li>
+                <li>Git Workflow</li>
+                <li>Procedural Programming</li>
+              </ul>
+            </div> 
+          </div>
+        </div>
+      </div>
     </div>
     <!-- "Portfolio" section that includes: -->
     <div class="portfolio">
