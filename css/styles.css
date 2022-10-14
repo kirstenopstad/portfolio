@@ -5,11 +5,40 @@ h5 {
 .about img {
   max-width: 300px;
 }
+
 .header img {
   max-width: 100%;
 }
+
 .list-title {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 90%;
 }
+
+.project {
+  width: 30%;
+  margin: 0 5px 5px 5px;
+  border: solid;
+  padding: 5px;
+  float: left;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 95%;
+}
+
+.project h5 {
+  font-weight: 300;
+}
+
+ .project p {
+  font-size: 85%;
+ }
