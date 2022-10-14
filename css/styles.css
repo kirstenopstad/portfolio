@@ -1,3 +1,5 @@
+
+
 h5 {
   text-transform: capitalize;
 }
@@ -27,8 +29,21 @@ h5 {
   margin: auto;
 }
 
-.header img {
-  max-width: 100%;
+.header {
+  min-height: 100vw;
+}
+
+.header h1 {
+  text-align: center;
+  color: white;
+  padding-top: 50vh;
+}
+
+#header {
+  background-image: url(/img/ko-couch.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
 }
 
 .list-title {
