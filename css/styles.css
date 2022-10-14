@@ -30,7 +30,7 @@ h5 {
 }
 
 .header {
-  height: 100vh;
+  min-height: 50vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -51,6 +51,7 @@ h5 {
   background-image: url(/img/ko-couch.jpg);
   background-repeat: no-repeat;
   background-size: 100vw;
+  background-clip: content-box;
 }
 
 .list-title {
