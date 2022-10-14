@@ -4,3 +4,8 @@
 .header img {
   max-width: 100%;
 }
+.list-title {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 90%;
+}
