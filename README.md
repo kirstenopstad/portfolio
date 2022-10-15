@@ -11,7 +11,10 @@
 
 ## Description
 
-This in an independent student project written for an Epicodus weekly code review. The intention is to build a solid foundation of a dev portfolio website to begin documenting and showcasing my work.
+This in an independent student project written for an Epicodus weekly code review. The intention is to build a solid foundation of a dev portfolio website to begin documenting and showcasing my work. 
+
+**Check it out! [Live](http://www.kirstenopstad.github.com/portfolio/) on GitHub Pages!**
+
 
 ### Initial Project Requirements (MVP)
 
@@ -33,7 +36,6 @@ Project must include:
 
 <!-- ![Screenshots](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.03bZmDGXaBhBYyxxp3Ls3gHaEA%26pid%3DApi&f=1&ipt=e980d57210242747a51c41421e1f09a6de3b1fdaeaadd297496787bb64e80c88&ipo=images) -->
 
-[x] [Link to operational site](http://www.kirstenopstad.github.com/portfolio/)
 
 ### Goals
 1. Meet MVP requirements
