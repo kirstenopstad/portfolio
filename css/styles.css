@@ -34,6 +34,11 @@ h5 {
 
 .about-text p {
   max-width: 550px;
+  margin-left: 50px;
+}
+
+.about-text ol {
+  margin-left: 50px;
 }
 
 #about-photo img {
