@@ -29,7 +29,11 @@ h5 {
 
 .about-text {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 120%;
+  font-size: 110%;
+}
+
+.about-text p {
+  max-width: 550px;
 }
 
 #about-photo img {
