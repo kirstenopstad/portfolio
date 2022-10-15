@@ -93,10 +93,10 @@ h5 {
   height: 75vh;
   margin: 5px;
   margin-bottom: 15px;
-  border: solid;
+  border: solid gray;
   padding: 5px;
   float: left;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .project img {
@@ -106,8 +106,10 @@ h5 {
 .project h4 {
   text-align: center;
   text-transform: uppercase;
-  font-weight: 600;
-  font-size: 95%;
+  font-weight: 300;
+  font-size: larger;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .project h5 {
