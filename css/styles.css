@@ -4,29 +4,31 @@ h5 {
   text-transform: capitalize;
 }
 
+.about {
+  margin-top: 10px;
+}
+
 .about img {
   max-width: 300px;
 }
 
 .about-badge {
   width: 100%;
-  margin: 5px;
-  border: solid;
-  padding: 5px;
   font-size: 90%;
   box-sizing: border-box;
   background-color: #ffffff;
 }
 
 .about-text {
-  font-family: Times, 'Times New Roman', serif;
-  font-size: 125%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 120%;
 }
 
-#about-photo {
+#about-photo img {
   display: block;
   width: 100%;
   margin: auto;
+  padding-bottom: 15px;
 }
 
 .header {
@@ -50,8 +52,9 @@ h5 {
 #header-photo {
   background-image: url(/img/ko-couch.jpg);
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: 100%;
   background-clip: content-box;
+  background-position-y: 50%;
 }
 
 .list-title {
@@ -90,4 +93,9 @@ h5 {
 
  .project p {
   font-size: 85%;
+ }
+ 
+ .section {
+  text-transform: uppercase;
+  font-weight: 200;
  }
