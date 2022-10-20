@@ -76,7 +76,7 @@ h5 {
 }
 
 #header-photo {
-  background-image: url(/img/ko-couch.jpg);
+  background-image: url(../img/ko-couch.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: content-box;
