@@ -14,7 +14,7 @@
 
 This in an independent student project written for an Epicodus weekly code review. The intention is to build a solid foundation of a dev portfolio website to begin documenting and showcasing my work. 
 
-**Check it out! [Live](https://kirstenopstad.github.io/portfolio/) on GitHub Pages!**
+**Check it out! [Live](http://kirstenopstad.github.io/portfolio/) on GitHub Pages!**
 
 
 ### Initial Project Requirements (MVP)
